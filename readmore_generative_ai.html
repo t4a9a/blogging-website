@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More - Blog Post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .navbar {
+            background-color: red;
+            padding: 10px;
+            transition: background-color 0.5s ease-in-out;
+        }
+        .navbar:hover {
+            background-color: darkred;
+        }
+        .navbar-brand img {
+            height: 50px;
+            width: auto;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .content {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .blog-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: red;
+            border: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: darkred;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/logo.png" alt="Blog Logo"> My Blog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="content">
+            <h2>Blog Post ABOUT GENERATIVE AI</h2>
+            <p>Posted on March 16, 2025</p>
+            <img src="/images/generative_ai.png" alt="Related Blog Image" class="blog-image">
+            <p>Generative AI refers to a class of artificial intelligence models designed to produce new, original content based on patterns and data they have learned. These models are capable of generating text, images, audio, video, and even code, making them incredibly versatile and innovative tools.
+                <br>
+                <b><h5>How Generative AI Works</h5></b>
+                Generative AI models are typically built using deep learning techniques, such as neural networks. They are trained on vast datasets to recognize patterns and relationships within the data. During this process, they learn how to create content that resembles or mimics what they've seen. Two popular types of generative models are:
+                <br><br>
+                • <b>Transformer Models:</b> Like GPT (Generative Pre-trained Transformer), which excels in text generation and understanding natural language.
+                <br><br>
+                • <b>Generative Adversarial Networks (GANs)</b>: These involve two neural networks—one generates content, and the other evaluates it, improving the output over time. GANs are widely used for creating realistic images and videos.<br><br>
+                
+                <b>Applications of Generative AI
+                Content Creation:</b>
+                
+                Writing articles, blogs, or marketing copy.
+                
+                Composing music or creating digital art.
+                <br><br>
+                <b>Image and Video Generation:</b>
+                
+                Designing graphics, animations, or deepfake videos.<br><br>
+                
+                <b>Code Generation:</b>
+                
+                Assisting developers by generating code snippets or debugging.<br><br>
+                
+                <b>Personalization:</b>
+                
+                Customizing recommendations in e-commerce, entertainment, and education.
+                <br><br>
+                <b>Healthcare:</b>
+                
+                Creating synthetic medical data for research and training purposes.
+                <br><br>
+                <b>Education:</b>
+                
+                Developing interactive learning materials or virtual tutors.
+                
+                Future Potential of Generative AI
+                Generative AI is expected to evolve further, enabling groundbreaking innovations. It could revolutionize industries by enhancing creativity, automating routine tasks, and providing new ways to solve complex problems. However, with its potential, challenges like ethical use, misinformation, and data privacy must be addressed responsibly.
+                
+                If you'd like, we could dive deeper into any of these aspects! Let me know what interests you most about generative AI.</p>
+            <a href="index.html" class="btn btn-primary mt-3">Back to Home</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .navbar {
+            background-color: red;
+            padding: 10px;
+            transition: background-color 0.5s ease-in-out;
+        }
+        .navbar:hover {
+            background-color: darkred;
+        }
+        .navbar-brand img {
+            height: 50px;
+            width: auto;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .card {
+            background-color: #222;
+            color: white;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .btn-primary {
+            background-color: red;
+            border: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: darkred;
+            transform: scale(1.1);
+        }
+        .about-me-img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .blog-title-img {
+            width: 95%;
+            height: auto;
+            border-radius: 10px;
+            margin-top:1vh;
+            margin-bottom:1vh;
+            margin-right:1vh;
+        }
+        .container {
+            margin: 30px auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Blog Logo"> My Blog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Blog Post About Computer</h2>
+                                <p class="card-text">A computer is an electronic device that processes information and performs tasks based on instructions provided by software......</p>
+                                <a href="readmore_computer.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images/b1.png" alt="Blog Post Image" class="blog-title-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Blog Post About AI</h2>
+                                <p class="card-text">Artificial Intelligence (AI) is revolutionizing technology by enabling machines to learn and make decisions......</p>
+                                <a href="readmore_generative_ai.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images/generative_ai.png" alt="Blog Post Image" class="blog-title-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Blog Post About Web Development</h2>
+                                <p class="card-text">Web development involves designing and coding websites to create an online presence......</p>
+                                <a href="readmore_web_development.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images/web_development.png" alt="Blog Post Image" class="blog-title-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="images/dp.png" alt="About Me" class="about-me-img">
+                        <h3>Hey,</h3>
+                        <p>I am <b>KEN</b> (not my real name tho.....) and it's my first blogging site using Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
